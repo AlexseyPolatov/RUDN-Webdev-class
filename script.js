@@ -1,7 +1,5 @@
 const chalk = require('chalk');
 
-const num1 = Math.random();
-const num2 = Math.random();
-const sum = num1 + num2;
+const getRandomSum = () => [Math.random(), Math.random()].reduce((a, b) => a + b, 0);
 
-console.log(chalk.yellow(sum));
+console.log(chalk.yellow(getRandomSum()));
