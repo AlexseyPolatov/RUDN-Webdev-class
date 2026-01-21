@@ -1,0 +1,11 @@
+{
+  "name": "rudn-webdev-class",
+  "version": "1.0.0",
+  "license": "ISC",
+  "scripts": {
+    "color": "node script.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2"
+  }
+}
